@@ -1,9 +1,9 @@
-const totalImages = 30; // update to real count
+const totalImages = 30;
 const gallery = document.getElementById('gallery');
 
 function loadImages() {
   for (let i = 1; i <= totalImages; i++) {
-    const fileName = `Maker Portfolio - Visual Arts - ${i}.jpg`;
+    const fileName = `${i}.jpg`;   
     const img = document.createElement('img');
     img.src = `Portfolio/${fileName}`;
     img.alt = `Visual Arts ${i}`;
